@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saurabh | Web Developer</title>
+
+  <!-- - favicon-->
+  <link rel="shortcut icon" href="./assets/images/Social-Icon/dp.jpg" type="image/x-icon">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/b87c274736.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--- #MAIN-->
+  <main>
+    <!--- #SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Social-Icon/dp.jpg" alt="Praveen" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Saurabh</h1>
+          <p class="title">Full Stack Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:manikerisaurabh@gmail.com" class="contact-link">manikerisaurabh@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917559300805" class="contact-link">+91 7559300805</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Maharashtra, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Resume download button -->
+        <!-- href="YOUR_RESUME_LINK_HERE": Replace this with the direct link to your resume file. -->
+        <!-- download="YourName_Resume.pdf": Specifies the name of the file that will be downloaded.  -->
+        <a href="https://drive.google.com/uc?export=download&id=1C6_R82G7Fq6y0Qq-_QCuVPFcjU4WEOCo"
+          download="Saurabh_Manikeri_Resume.pdf"
+          class="flex gap-8 items-center text-xs bg-green-500 text-white px-3 py-2 mt-6 rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all duration-300">
+          <span>
+            Download Resume
+          </span>
+          <span class="text-black">
+            <i class="fa-solid fa-arrow-down"></i>
+          </span>
+        </a>
+
+
+        <!-- Social-List -->
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item text-yellow-400">
+            <a href="https://www.linkedin.com/in/saurabh-manikeri-624b3a284/" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/manikerisaurabh" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/manikerisaurabh/" class="social-link">
+              <img src="./assets/images/Social-Icon/leetcode-logo.png" class="w-5" alt="leetcode-logo-icon">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.geeksforgeeks.org/user/manikeri8vjn/" class="social-link">
+              <img src="./assets/images/Social-Icon/gfg-log.png" class="w-5" alt="Geeks For Geeks logo">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/manikerisaurabh" class="social-link">
+              <img src="./assets/images/Social-Icon/x-icon.png" class="w-5" alt="X logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--- #main-content-->
+    <div class="main-content">
+      <!--- #NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+      <!--- #ABOUT-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p> 🎓 Currently pursuing B.Tech in Computer Science and Engineering, in my final year, from Shivaji
+            University, Kolhapur. </p>
+          <p>
+            🔧 Hold several certificates in key areas including Git-GitHub, Building Responsive Pages, Java,
+            JavaScript, and SQL.
+            My certifications come from esteemed platforms like Geekster, freeCodeCamp, and HackerRank.
+          </p>
+          <p>
+            🎓 Completed courses in <strong>Full-Stack Web Develpment</strong>, <strong>DSA with Java</strong>
+            from <b>Apna College</b> , equipping me with a solid foundation in these technologies.
+          </p>
+          <!-- <p>
+            🏆 Additionally, I have earned the "Java Course - Mastering the Fundamentals" Certification at SCALER-TOPICS
+            and
+            achieved the "Legacy JavaScript Algorithms and Data Structures" Developer Certification from freeCodeCamp.
+          </p> -->
+
+          <p>
+            I’ve developed a deep understanding of web technologies, programming languages, and modern frameworks. From
+            designing
+            captivating front-end interfaces to building robust back-end infrastructures, I am driven by a passion for
+            solving
+            complex problems and delivering high-quality solutions.
+          </p>
+
+        </section>
+
+
+        <!--- service -->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Development</h4>
+                <p class="service-item-text">
+                  Handles professional authentication, business logic, and APIs, and designs, implements, and manages
+                  databases.
+                </p>
+                <div class="flex gap-3 mt-3">
+                  <img src="./assets/images/tools/NodeJS.png" class="w-5" alt="NodeJS">
+                  <img src="./assets/images/tools/ExpressJS.webp" class="w-5" alt="ExpressJS">
+                  <img src="./assets/images/tools/MongoDB.svg" class="w-5" alt="MongoDB">
+                  <img src="./assets/images/tools/firebase.png" class="w-5" alt="firebase">
+                  <img src="./assets/images/tools/cloudinary-icon.png" class="w-5" alt="cloudinary-icon">
+                  <img src="./assets/images/tools/postman.svg" class="w-5" alt="postman">
+                  <img src="./assets/images/tools/postgres.png" class="w-5" alt="postgresql">
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Development</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality, responsive, and interactive web pages made at a professional level.
+                </p>
+                <div class="flex gap-3 mt-3">
+                  <img src="./assets/images/tools/html.webp" class="w-5" alt="html">
+                  <img src="./assets/images/tools/css.svg" class="w-5" alt="CSS">
+                  <img src="./assets/images/tools/Java.png" class="w-5" alt="Java">
+                  <img src="./assets/images/tools/JS.webp" class="w-5" alt="JS">
+                  <img src="./assets/images/tools/Tailwindcss.png" class="w-5" alt="Tailwindcss">
+                  <img src="./assets/images/tools/ReactJS.webp" class="w-5" alt="ReactJS">
+                  <img src="./assets/images/tools/nextJs.png" class="w-5" alt="NextJs">
+                </div>
+              </div>
+            </li>
+
+
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="React-JS icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Next Js</h4>
+                <p class="service-item-text">
+                  Handle both client-side (UI) and server-side (business logic, database) tasks, Deploy web apps to
+                  servers, allowing them to create a complete web application from scratch.
+                </p>
+                <p class="service-item-text">
+                  Git and GitHub to manage code versions, collaborate with teams, and review/merge code efficiently.
+                </p>
+                <div class="flex gap-3 mt-3 flex-wrap">
+                  <img src="./assets/images/tools/nextJs.png" class="w-5" alt="NextJs">
+                  <img src="./assets/images/tools/ReactJS.webp" class="w-5" alt="ReactJS">
+                  <img src="./assets/images/tools/NodeJS.png" class="w-5" alt="NodeJS">
+                  <img src="./assets/images/tools/ExpressJS.webp" class="w-5" alt="ExpressJS">
+                  <img src="./assets/images/tools/postgres.png" class="w-5" alt="postgresql">
+                  <img src="./assets/images/tools/MongoDB.svg" class="w-5" alt="MongoDB">
+
+                  <img src="./assets/images/tools/Java.png" class="w-5" alt="Java">
+                  <img src="./assets/images/tools/JS.webp" class="w-5" alt="JS">
+                  <img src="./assets/images/tools/Tailwindcss.png" class="w-5" alt="Tailwindcss">
+                  <img src="./assets/images/tools/ReactJS.webp" class="w-5" alt="ReactJS">
+                  .
+                  <img src="./assets/images/tools/firebase.png" class="w-5" alt="firebase">
+                  <img src="./assets/images/tools/cloudinary-icon.png" class="w-5" alt="cloudinary-icon">
+                  .
+                  <img src="./assets/images/tools/Git_icon.png" class="w-5" alt="Git_icon">
+                  <img src="./assets/images/tools/gitHub.png" class="w-5" alt="gitHub">
+                  <img src="./assets/images/tools/postman.svg" class="w-5" alt="postman">
+                  <img src="./assets/images/tools/Visual_Studio_Code.png" class="w-5" alt="Visual_Studio_Code">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--- testimonials-->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Projects</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/campusLog-logo.png" alt="Chat App" width="60"
+                    data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center flex gap-2 items-center"
+                  data-testimonials-title>
+                  Campus Log (Next.js, PostgreSQL )
+                  <a class="text-blue-500 underline text-sm" href="https://campus-log.vercel.app/">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href="https://github.com/manikerisaurabh/campus-log"><i
+                      class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I developed a LinkedIn clone using the MERN stack, demonstrating my ability to build a fully
+                    functional social
+                    networking platform. This project showcases my proficiency in both front-end and back-end
+                    development, as well as my
+                    understanding of real-time data handling and user authentication.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/chatApp-logo.png" alt="Journery Nest" width="60"
+                    data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Chat Application (MERN Stack)
+                  <a class="text-blue-500 underline text-sm" href="https://chat-app-4kpz.onrender.com/login">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href="https://github.com/manikerisaurabh/chat-app"><i
+                      class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I built a fully functional Chat Application using the MERN stack (MongoDB, Express.js, React.js,
+                    Node.js), which replicates
+                    key features of the Chat Application is we can use it for real time usage also.
+                    user-friendly web application with a focus on front-end design, back-end functionality, and
+                    real-time data handling.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="https://play-lh.googleusercontent.com/THNtruRgXVsuWODACF_SxB6idnA2hf0Nb-laVC5cR37xwayNz_iIst-hok508qs-tdw"
+                    alt="Emily evans" width="60" data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Journery Nest (MERN Stack)
+                  <a class="text-blue-500 underline text-sm" href="https://journeynest.onrender.com/listings">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href="https://github.com/manikerisaurabh/Journey-Nest"><i
+                      class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I developed a fully functional Hotel Renting Application using the MERN stack (MongoDB, Express.js,
+                    React.js,
+                    Node.js)
+                    core features of this platform is anyone can upload their room or hotel on rent with their live
+                    location. This project highlights my ability to build scalable,
+                    user-focused
+                    JavaScript with complex front-end and back-end functionalities.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/resilience-radar-logo.webp" alt="Henry william" width="60"
+                    data-testimonials-avatar class="py-[5px]  h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Resilience Radar (MERN)
+                  <a class="text-blue-500 underline text-sm" href="">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href="https://github.com/manikerisaurabh/Resilience-Radar"><i
+                      class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Resilience Radar is a web application designed to empower communities by facilitating efficient
+                    communication between citizens and government officials. By providing a platform for citizens to
+                    report community issues and for government employees to manage and resolve these issues, Resilience
+                    Radar aims to improve the resilience and well-being of communities.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--- testimonials modal-->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2024-10-14">2024</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <!--- clients-->
+        <!-- <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+        </section> -->
+      </article>
+
+
+
+
+
+      <!--- #Education / Skill-->
+      <article class="resume" data-page="education">
+        <header>
+          <h2 class="h2 article-title">Education/ Skills</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"> Bachelor of Technology </h4>
+              <span>June, 2021 — May, 2025</span>
+              <p class="timeline-text">
+                Computer Science and Engineering <br>
+                <strong>GPA : 8.4</strong>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">High school (12th Board)
+              </h4>
+              <span>Jul, 2019 — Apr, 2020</span>
+              <p class="timeline-text">
+                Completed senior secondary education with 64% from Gadhinglaj | Maharashtra State Education Board,
+                Maharashtra.
+              </p>
+            </li>
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Matrix School (10th Board)</h4>
+              <span>Jul, 2017 — Jun, 2018</span>
+              <p class="timeline-text">
+                Completed secondary education with 87.40% from Basarge | Maharashtra State Board of Secondary and Higher
+                Secondary Education, Maharashtra.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Experience -->
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience <span class="text-white text-xs"></span></h3>
+
+          </div>
+          .
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Externs Club (Bengaluru)</h4>
+              <span>Aug, 2023 — Oct, 2023</span>
+              <p class="timeline-text">
+                <strong>Full Stack Web Developer Intern.</strong> <br>
+                Here I had worked as Full Stack web developer using technologies HTML, CSS, JavaScript, Node.js
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AppluBuddy (Pune)</h4>
+              <span>May, 2024 — Sept, 2024</span>
+              <p class="timeline-text">
+                <strong>Full Stack Web Developer Intern.</strong> <br>
+                &nbsp; &nbsp; 1 . Worked on the ApplyBuddy project, building a website that helps students find
+                their desired colleges based on their marks. <br>
+                &nbsp; &nbsp; 2 . Utilized technologies including React.js for front-end development, Express.js
+                for back-end development, and PostgreSQL for database management. <br>
+                &nbsp; &nbsp; 3 . Collaborated with a team to implement featuresand optimize performance. <br>
+                &nbsp; &nbsp; 4 .Gained hands-on experience in full-stack web development and improved
+                problem-solving and coding skills.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skill">
+          <div class="title-wrapper mb-2">
+            <div class="icon-box ">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3 ml-2">Skills</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Programming Languages:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="./assets/images/tools/typescript-logo.png" class="w-16" alt="TS">
+                <img src="./assets/images/tools/Java.png" class="w-16" alt="Java">
+                <img src="./assets/images/tools/c-sharp.png" class="w-16" alt="c-sharp">
+                <img src="./assets/images/tools/dot-net.png" class="w-16" alt="DotNet">
+
+                <img src="./assets/images/tools/JS.webp" class="w-16" alt="JS">
+                <img src="./assets/images/tools/NodeJS.png" class="w-16" alt="NodeJS">
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frameworks & Libraries:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="./assets/images/tools/nextJs.png" class="w-16" alt="next.js-icon">
+                <img src="./assets/images/tools/ReactJS.webp" class="w-16" alt="ReactJS">
+                <img src="./assets/images/tools/Tailwindcss.png" class="w-16" alt="Tailwindcss">
+                <img src="./assets/images/tools/postgres.png" class="w-16" alt="postgres-logo">
+                <img src="./assets/images/tools/ExpressJS.webp" class="w-16" alt="ExpressJS">
+                <img src="./assets/images/tools/MongoDB.svg" class="w-16" alt="MongoDB">
+                <img src="./assets/images/tools/firebase.png" class="w-16" alt="firebase">
+                <img src="./assets/images/tools/cloudinary-icon.png" class="w-16" alt="cloudinary-icon">
+                <img src="./assets/images/tools/supabase.png" class="w-16" alt="supabase-icon">
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tools:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="./assets/images/tools/visual-studio.png" class="w-16" alt="visual-studio">
+                <img src="./assets/images/tools/Visual_Studio_Code.png" class="w-16" alt="Visual_Studio_Code">
+                <img src="./assets/images/tools/Git_icon.png" class="w-16" alt="Git_icon">
+                <img src="./assets/images/tools/gitHub.png" class="w-16" alt="gitHub">
+                <img src="./assets/images/tools/postman.svg" class="w-16" alt="postman">
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #projects-->
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Next.js</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>MERN-Stack</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>JavaScript</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>Angular & .Net</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Java</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>npm Packages</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+              <li class="select-item">
+                <button data-select-item>npm Packages</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>JavaScript</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Next.js</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>MERN-Stack</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Angular & .Net</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Java</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="Next.js">
+              <a href="https://campus-log.vercel.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"> </ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/campus-log.png" class="project-image"
+                    alt="campus log" loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Campus Log</h3>
+                <p class="project-category">Next.js <br> DB : PostgreSQL</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="MERN-Stack">
+              <a href="https://journeynest.onrender.com/listings">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/journey-nest.png" alt="journey-nest"
+                    loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Journet Nest</h3>
+                <p class="project-category">MERN-Stack <br>Db: MongoDb </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="MERN-Stack">
+              <a href="https://chat-app-4kpz.onrender.com/login">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/chat-app.png" alt="fundo" loading="lazy"
+                    style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Chat App</h3>
+                <p class="project-category">MERN Stack <br> DB : MongoDb</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="MERN-Stack">
+              <a href="https://github.com/manikerisaurabh/Resilience-Radar">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/resilience-radar-logo.webp" alt="Expense_Tracker"
+                    loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Resilience-Radar</h3>
+                <p class="project-category">MERN-Stack <br>Db: MongoDb</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Next.js">
+              <a href="https://github.com/manikerisaurabh/Blog-App">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"> </ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/blog-app.avif" class="project-image"
+                    alt="campus log" loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Blog-App</h3>
+                <p class="project-category">Next.js <br> DB : MongoDb</p>
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-hotelscloneweb.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/code-editor.webp" alt="CODESPHERE"
+                    loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">CODESPHERE</h3>
+                <p class="project-category">JavaScript</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Angular & .Net">
+              <a href="https://github.com/manikerisaurabh/Store-Management">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/store-management.jpg" alt="Store-Management"
+                    loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Store-Management</h3>
+                <p class="project-category">Angular & .Net</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Java">
+              <a href="https://github.com/manikerisaurabh/Bank-Management-System">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/bank-manegement.png"
+                    alt="Bank-Management-System" loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Bank-Management-System</h3>
+                <p class="project-category">Java <br> Db: MySql</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://github.com/manikerisaurabh/Restaurant-Web-Page">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/restaurant-management.jpeg"
+                    alt="Restaurant-Web-Page" loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Restaurant Management</h3>
+                <p class="project-category">JavaScript</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://github.com/manikerisaurabh/college-search">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/college-search.jpeg" alt="College Search"
+                    loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">College Search</h3>
+                <p class="project-category">JavaScript</p>
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://github.com/manikerisaurabh/cat-facts">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/cat-facts.png" alt="cat-fact" loading="lazy"
+                    style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Cat Facts</h3>
+                <p class="project-category">JavaScript</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://github.com/manikerisaurabh/content-management">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/content-management.avif"
+                    alt="content-management" loading="lazy" style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Content Management</h3>
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="npm Packages">
+              <a href="https://www.npmjs.com/package/get-a-joke">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/my-projects/get-a-joke.png" alt="get-a-joke" loading="lazy"
+                    style="height: 200px; width: 100%;">
+                </figure>
+                <h3 class="project-title">Get a Joke</h3>
+                <p class="project-category">npm Packages</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #Certificates -->
+
+      <article class="blog" data-page="certificates">
+        <header>
+          <h2 class="h2 article-title">Coding Platforms</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://leetcode.com/u/manikerisaurabh/">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Projects-Things/my-projects/leetcode.png" alt="leetcode" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="dot"></span>
+                    <img class="h-5 rounded" src="./assets/images/Social-Icon/leetcode-logo.png" alt="geekster-logo">
+                    <time datetime="2024-06-16">Leetcode</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Leetcode</h3>
+                  <p class="blog-text">
+                    Solved 430+ DSA question. <br>
+                    Maintaining streak of 300+ days
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.geeksforgeeks.org/user/manikeri8vjn/">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Projects-Things/my-projects/gfg-streak.png"
+                    alt="responsive-web-page-certificates" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="dot"></span>
+                    <img class="h-5 rounded" src="./assets/images/Social-Icon/gfg-log.png" alt="geekster-logo">
+                    <time datetime="2024-06-16">Geeks for Geeks</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Geeks for Geeks</h3>
+                  <p class="blog-text">
+                    Maintaining a streak of 300+ days.<br>
+                    Received a T-shirt as a reward from GeeksforGeeks.
+                  </p>
+
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.hackerrank.com/profile/manikerisaurabh">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Projects-Things/my-projects/hacker-rank.png" alt="java-certificate"
+                    loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="dot"></span>
+                    <img class="h-5 rounded" src="./assets/images/Social-Icon/hacker-rank.png" alt="geekster-logo">
+                    <time class="text-xs" datetime="2024-03-09">Hacker Rank</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Hacker Rank</h3>
+                  <p class="blog-text">
+                    Acieved <strong>Gold</strong> badge in <strong>Java</strong> <br>
+                    Acieved <strong>Silver</strong> badge in <strong>C Language</strong> <br>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://github.com/manikerisaurabh">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Projects-Things/my-projects/git-hub.png" alt="java-certificate"
+                    loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="dot"></span>
+                    <img class="h-5 rounded" src="./assets/images/Social-Icon/git-hub.png" alt="geekster-logo">
+                    <time class="text-xs" datetime="2024-03-09">Git Hub</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Git Hub</h3>
+
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.758848268476!2d74.20773385099672!3d16.704987588537913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10027a8af23db%3A0xa759ac1260114105!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1726673298269!5m2!1sen!2sin"
+              width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--- custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
